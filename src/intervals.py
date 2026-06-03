@@ -21,7 +21,7 @@ def merge_intervals(intervals: List[Interval]) -> List[Interval]:
     for start, end in ordered[1:]:
         last = merged[-1]
         # Overlapping or touching ranges should be merged together.
-        if start < last[1]:
+        if start <= last[1]:
             last[1] = max(last[1], end)
         else:
             merged.append([start, end])
