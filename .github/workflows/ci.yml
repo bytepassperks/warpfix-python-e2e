@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, e2e-run41]
   pull_request:
     branches: [main]
 
