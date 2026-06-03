@@ -1,7 +1,5 @@
 # warpfix-python-e2e
 
-Small Python project used to validate WarpFix end-to-end on a non-JavaScript
-codebase. `src/intervals.py` merges overlapping/touching `(start, end)` ranges;
-`tests/test_intervals.py` exercises the contract with pytest.
+E2E test repo for language-agnostic source detection.
 
-<!-- trigger CI re-run -->
+trigger: 090004
